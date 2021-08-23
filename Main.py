@@ -130,8 +130,7 @@ while True:
     elif choice == 2:
         print("*******WELCOME MEMBER*******\nPlease enter your choice:\n")
         while (True):
-            choose_option=int(input())
-            choose_option = input("Press 1 for My Regimen \n Press 2 for My Profile \n Press 3 to Exit from Member Section. ")
+            choose_option = int(input("Press 1 for My Regimen \n Press 2 for My Profile \n Press 3 to Exit from Member Section. "))
                                   
             if choose_option == 1:
                 p=input("Enter you Mobile Number")
